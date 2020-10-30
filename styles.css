@@ -53,4 +53,30 @@ a {
     font-size: 1.8em;
 }
 
+.hero-main-container { 
+    display: flex;
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    align-items: center;
+}
 
+.hero-text-container {
+    flex: 1;
+    background-color: olive;
+    margin-top: -200px;
+}
+
+.hero-image-container {
+    flex: 2;
+    background-color: red;
+}
+
+p { 
+    font-size: 2.1em;
+}
+
+h1 {
+    font-size: 5.6em;
+
+}
