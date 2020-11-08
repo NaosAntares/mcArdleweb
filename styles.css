@@ -253,5 +253,7 @@ h1 {
 }
 
 .imagen-diagnostico {
+    width: 700px;
+    height: auto;
     flex: 3;
 }
