@@ -349,3 +349,26 @@ ul {
 .separacion {
     padding: 50px 0;
 }
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+figure {
+    display: inline-block;
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: bottom;
+}
+figure figcaption {
+    padding-top: 5px;
+    text-align: start;
+}
