@@ -272,4 +272,58 @@ h1 {
       "area1 area2"
       "area3 area4"
       "area5 area6";
-  }
+}
+
+.titulo-info {
+      font-size: 4em;
+      padding-bottom: 75px;
+}
+
+.contenedor-info {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.row {
+    display: flex;
+    padding-bottom: 100px;
+}
+  
+.column {
+    flex: 50%;
+    margin: 0;
+}
+
+.column-image {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-info {
+    width: 60%;
+    height: auto;   
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-space {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-wide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-space {
+    padding-bottom: 50px;;
+}
