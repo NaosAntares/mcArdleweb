@@ -385,3 +385,35 @@ figure figcaption {
     width: 800px;
     height: auto;
 }
+
+.resized-workout {
+    height: 750px;
+    width: auto;
+}
+
+.center-img {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.rutinas-img {
+    height: 800px;
+    width: auto;
+}
+
+.cards-img {
+    height: 700px;
+    width: auto;
+}
+
+.nutricion-img {
+    height: 500px;
+    width: auto;
+}
+
+.area2-text {
+    font-size: 2em;
+    line-height: 2.2em;
+    margin: 20px;
+}
