@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
     <title>McArdle</title>
 </head>
 <body>
@@ -15,16 +16,40 @@
                     <p class="logo-text">McArdle</p>
                 </a>
             </div>
-            <ul class="nav-bar">
-                <li class="nav-link"><a href="index.html">Inicio</a></li>
-                <li class="nav-link"><a href="generalidades.html">Generalidades</a></li>
-                <li class="nav-link"><a href="diagnostico.html">Diagnóstico</a></li>
-                <li class="nav-link"><a href="tratamiento.html">Recomendaciones</a></li>
-                <li class="nav-link"><a href="genetica.html">Genetica</a></li>
-                <li class="nav-link"><a href="metabolismo.html">Metabolismo</a></li>
-                <li class="nav-link"><a href="estudios.html">Estudios relacionados</a></li>
-                <li class="nav-link"><a href="biblos.html">Bibliografía utilizada</a></li>
-            </ul>
+            <div class="nav">
+                <div id="menuToggle">
+                    <!--
+                    A fake / hidden checkbox is used as click reciever,
+                    so you can use the :checked selector on it.
+                    -->
+                    <input type="checkbox" checked/>
+                    
+                    <!--
+                    Some spans to act as a hamburger.
+                    
+                    They are acting like a real hamburger,
+                    not that McDonalds stuff.
+                    -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    
+                    <!--
+                    Too bad the menu has to be inside of the button
+                    but hey, it's pure CSS magic.
+                    -->
+                    <ul id="menu">
+                      <a href="index.html"><li>Inicio</li></a>
+                      <a href="generalidades.html"><li>Generalidades</li></a>
+                      <a href="diagnostico.html"><li>Diagnóstico</li></a>
+                      <a href="tratamiento.html"><li>Recomendaciones</li></a>
+                      <a href="genetica.html"><li>Genética</li></a>
+                      <a href="metabolismo.html"><li>Metabolismo</li></a>
+                      <a href="estudios.html"><li>Estudios relacionados</li></a>
+                      <a href="biblos.html"><li>Bibliografía</li></a>
+                    </ul>
+                  </div>
+            </div>
         </nav>
     </header>
     
@@ -33,7 +58,22 @@
         <img src="img/genetica1.png" alt="" class="infografia genética-imagen">
     </div>
 
-    <footer class="final-block sintomas-footer"></footer>
+    <footer class="final-block sintomas-footer">
+        <div class="row">
+            <div class="column column-image">
+                <img src="http://www3.uacj.mx/comunicacion/PublishingImages/Escudo%20UACJ%202015/firma%20institucional%20uacj-vertical-%202015-color-sin%20fondo.png" alt="" class="escudo">
+            </div>
+            <div class="column" style="width: 1000px;">
+                <h3 class="area-text" style="color: white; padding-top: 10px;">Integrantes</h3>
+                <p class="area-text" style="color: white; font-size: 2em; line-height: 15px;">Ana Virginia Arras Gardea 177309</p>
+                <p class="area-text" style="color: white; font-size: 2em; line-height: 15px;">Sasha Gabriela Soto Rocha 177595</p>
+                <p class="area-text" style="color: white; font-size: 2em; line-height: 15px;">Jocelin Violeta Aguilar López 177121</p>
+                <p class="area-text" style="color: white; font-size: 2em; line-height: 15px;">Kevin González Montoya 177273</p>
+                <p class="area-text" style="color: white; font-size: 2em; line-height: 15px;">José Luis Tarula Marín 177283</p>
+            </div>
+            <div class="column"></div>
+        </div>
+    </footer>
     <script href="app.js"></script>
 </body>
 </html>

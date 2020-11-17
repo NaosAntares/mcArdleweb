@@ -422,3 +422,29 @@ figure figcaption {
     height: auto;
     width: 541px;
 }
+
+.resized-meta {
+    height: 600px;
+    width: auto;
+}
+
+.escudo {
+    height: 150px; 
+    width: auto; 
+    display: block;
+    margin: 50px;
+}
+
+.card-image {
+    width: 80px;
+    height: auto;
+}
+
+.estudio-img {
+    width: 1000px;
+    height: auto;
+}
+
+.paddingXD {
+    padding-right: 50px;
+}
